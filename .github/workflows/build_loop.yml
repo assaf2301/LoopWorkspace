@@ -37,7 +37,7 @@ jobs:
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: Update Guardrail+Settings.swift
-          curl https://github.com/assaf2301/LoopKit/commit/91ed2085a67bb20aa674d0a1995290e775dde185.patch | git apply -v --directory=LoopKit
+          curl https://github.com/assaf2301/LoopKit/commit/69db1b3a1a19e7b903793fe06d320017a0abcc46.patch | git apply -v --directory=LoopKit
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
